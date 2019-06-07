@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$USER_HOME$/Downloads/scala" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../acs-tdd" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../joblance" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../la-querencia" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../scalapb-demo" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../sistemas-distribuidos/client-service-grpc" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../sistemas-distribuidos/product-service" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../sistemas-distribuidos/product-service-grpc" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../sistemas-distribuidos/user-service" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../sistemas-distribuidos/user-service-grpc" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="ScalaSbtSettings">
+    <option name="customVMPath" />
+  </component>
+</project>
