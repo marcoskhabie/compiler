@@ -74,7 +74,7 @@ public class LexerTest {
     @Test
     public void testDeclarationAssignationLex(){
 
-        String file = "let hola:string=\"hola\"+\"hola\"";
+        String file = "let hola:string=\"hola\"+\"hola\";";
 
         TokenImpl let = new TokenImpl(new RangeImpl(0, 3), new RangeImpl(0,0), TokenType.Let,"let");
         TokenImpl space = new TokenImpl(new RangeImpl(3, 4), new RangeImpl(0,0), TokenType.Space," ");
@@ -85,6 +85,7 @@ public class LexerTest {
         TokenImpl stringLiteral = new TokenImpl(new RangeImpl(16, 22), new RangeImpl(0,0), TokenType.StringLiteral,"\"hola\"");
         TokenImpl plus = new TokenImpl(new RangeImpl(22, 23), new RangeImpl(0,0), TokenType.ArithmeticOperation,"+");
         TokenImpl stringLiteral2 = new TokenImpl(new RangeImpl(23, 29), new RangeImpl(0,0), TokenType.StringLiteral,"\"hola\"");
+        TokenImpl semiColon = new TokenImpl(new RangeImpl(29, 30), new RangeImpl(0,0), TokenType.Semicolon,";");
 
 
         List<Token> tokens = lexer.generateTokens(file);
@@ -99,6 +100,7 @@ public class LexerTest {
         assertEquals(stringLiteral, tokens.get(6));
         assertEquals(plus, tokens.get(7));
         assertEquals(stringLiteral2, tokens.get(8));
+        assertEquals(semiColon, tokens.get(9));
     }
 
 

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="LexerTest" tests="1" skipped="1" failures="0" errors="0" timestamp="2019-06-07T03:18:33" hostname="Marcoss-MacBook-Pro-2.local" time="67.053">
-  <properties/>
-  <testcase name="testIdentifierLex" classname="LexerTest" time="67.053">
-    <skipped/>
-  </testcase>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
