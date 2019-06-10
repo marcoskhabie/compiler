@@ -1,13 +1,15 @@
 package parser;
 
+import Lexer.Token;
+
 import java.util.ArrayList;
 import java.util.List;
 
 public class ProgramNode implements Node {
-    List<Statement> children;
+    private List<Statement> children;
 
     public ProgramNode() {
-        children = new ArrayList<Statement>();
+        children = new ArrayList<>();
     }
 
     public ProgramNode(List<Statement> children) {
@@ -17,6 +19,16 @@ public class ProgramNode implements Node {
     @Override
     public List<Node> getChildren() {
         return  new ArrayList<>(children);
+    }
+
+    @Override
+    public String getValue() {
+        return "PROGRAM NODE";
+    }
+
+    @Override
+    public Token getToken() {
+        return null;
     }
 
 

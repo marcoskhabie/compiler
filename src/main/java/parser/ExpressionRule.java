@@ -23,15 +23,16 @@ public class ExpressionRule implements Rule {
     @Override
     public Optional<Node> match(List<Token> tokens) {
         if (tokens.size() == 1) {
-            TokenType tokenType = tokens.get(0).getTokenType();
+            Token token = tokens.get(0);
+            TokenType tokenType = token.getTokenType();
             if (tokenType.equals(TokenType.Identifier)) {
-                return Optional.of(new IdentifierNode());
+                return Optional.of(new IdentifierNode(token.getValue(), token));
             } else if (tokenType.equals(TokenType.StringLiteral)) {
-                return Optional.of(new StringNode());
+                return Optional.of(new StringNode(token.getValue(), token));
             } else if (tokenType.equals(TokenType.NumberLiteral)) {
-                return Optional.of(new NumberNode());
+                return Optional.of(new NumberNode(token.getValue(), token));
             } else if (tokenType.equals(TokenType.BooleanLiteral)) {
-                return Optional.of(new BooleanNode());
+                return Optional.of(new BooleanNode(token.getValue(), token));
             }
             return Optional.empty();
         } else {
@@ -40,9 +41,9 @@ public class ExpressionRule implements Rule {
                 TokenType tokenType = token.getTokenType();
                 if (tokenType.equals(TokenType.ArithmeticOperation)) {
                     Optional<Node> left = match(tokens.subList(0, i));
-                    Optional<Node> right = match(tokens.subList(i + 1, tokens.size() - 1));
+                    Optional<Node> right = match(tokens.subList(i + 1, tokens.size()));
                     if (left.isPresent() && right.isPresent()) {
-                        return Optional.of(new ExpressionComposeNode((ExpressionNode) left.get(), (ExpressionNode) right.get(), getOperatorFromToken(token)));
+                        return Optional.of(new ExpressionComposeNode((ExpressionNode) left.get(), (ExpressionNode) right.get(), getOperatorFromToken(token),token));
                     } else {
                         return Optional.empty();
                     }

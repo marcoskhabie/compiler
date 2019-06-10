@@ -19,7 +19,7 @@ public class ParserImpl implements Parser {
     }
 
     public ParserImpl() {
-        rules = Arrays.asList(new AssignationRule());
+        rules = Arrays.asList(new AssignationRule(),new PrintRule());
     }
 
     @Override

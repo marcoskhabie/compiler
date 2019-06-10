@@ -25,13 +25,20 @@ public class SingleRule implements Rule{
 
     @Override
     public Optional<Node> match(List<Token> tokens) {
-        TokenType tokenType = tokens.get(0).getTokenType();
+        Token token = tokens.get(0);
+        TokenType tokenType = token.getTokenType();
         if (tokenType.equals(type)) {
             switch (tokenType){
                 case Identifier:
-                    return Optional.of(new IdentifierNode());
+                    return Optional.of(new IdentifierNode(token.getValue(),token));
                 case EQUAL:
-                    return Optional.of(new EqualNode());
+                    return Optional.of(new EqualNode(token, token.getValue()));
+                case LeftParenthesis:
+                case RightParenthesis:
+                    return Optional.of(new ParenthesisNode(token, token.getValue()));
+
+                case Print:
+                    return Optional.of(new PrintNode(token,null,null,null));
             }
         }
         return Optional.empty();

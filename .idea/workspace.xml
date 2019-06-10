@@ -2,51 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33ecfab9-aaa9-4ca3-9da8-9147cc0e16d9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/parser/AssignationNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/parser/BooleanNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/parser/EqualNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/parser/ExpressionComposeNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/parser/ExpressionNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/parser/ExpressionRule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/parser/IdentifierNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/parser/NumberNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/parser/Operator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/parser/ProgramNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/parser/SingleRule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/parser/Statement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/parser/StringNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ParserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/parser/ParenthesisNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/parser/PrintNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/parser/PrintRule.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/jarAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Parser.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/Parser/AssignationRule.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Parser/AssignationRule.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/Parser/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Parser/Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Parser/Parser.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Parser/Parser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Parser/ParserImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Parser/ParserImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Parser/Rule.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Parser/Rule.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/LexerTest.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/base-style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/js/report.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-LexerTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Parser/AssignationRule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/parser/AssignationRule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Parser/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/parser/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Parser/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/parser/Parser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Parser/ParserImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/parser/ParserImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Parser/Rule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/parser/Rule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/LexerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LexerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ParserImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/LexerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/LexerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/parser/AssignationNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/parser/AssignationNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/parser/AssignationRule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/parser/AssignationRule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/parser/BooleanNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/parser/BooleanNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/parser/EqualNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/parser/EqualNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/parser/ExpressionComposeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/parser/ExpressionComposeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/parser/ExpressionRule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/parser/ExpressionRule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/parser/IdentifierNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/parser/IdentifierNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/parser/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/parser/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/parser/NumberNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/parser/NumberNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/parser/ParserImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/parser/ParserImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/parser/ProgramNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/parser/ProgramNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/parser/SingleRule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/parser/SingleRule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/parser/StringNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/parser/StringNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ParserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ParserTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -94,34 +82,67 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/parser/PrintNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="165">
+              <caret line="11" column="8" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#228#229#0" expanded="true" />
+                <element signature="e#255#256#0" expanded="true" />
+                <element signature="e#300#301#0" expanded="true" />
+                <element signature="e#327#328#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/runners/ParentRunner.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ParserTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="290" selection-start-line="290" selection-end-line="290" />
+            <state relative-caret-position="298">
+              <caret line="82" selection-start-line="82" selection-end-line="82" />
               <folding>
-                <element signature="e#2922#2923#0" expanded="true" />
-                <element signature="e#2966#2967#0" expanded="true" />
-                <element signature="e#11040#11204#0" expanded="true" />
-                <element signature="e#11203#11204#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/runners/BlockJUnit4ClassRunner.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/parser/PrintRule.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="79" selection-start-line="79" selection-end-line="79" />
+            <state relative-caret-position="499">
+              <caret line="37" selection-start-line="37" selection-end-line="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#172#173#0" expanded="true" />
+                <element signature="e#199#200#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/parser/SingleRule.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="40" column="76" selection-start-line="40" selection-start-column="76" selection-end-line="40" selection-end-column="76" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/parser/ProgramNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -129,8 +150,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/parser/ParserImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="189">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#368#369#0" expanded="true" />
@@ -141,24 +162,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/parser/AssignationNode.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/parser/NumberNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#376#377#0" expanded="true" />
-                <element signature="e#451#452#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/parser/SingleRule.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="33" selection-start-line="33" selection-end-line="33" />
+            <state relative-caret-position="105">
+              <caret line="7" column="46" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -167,19 +174,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/parser/ExpressionNode.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/parser/IdentifierNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ParserTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="180">
+              <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -188,25 +186,25 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/parser/AssignationRule.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/parser/ParenthesisNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="180">
+              <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#579#580#0" expanded="true" />
-                <element signature="e#615#616#0" expanded="true" />
-                <element signature="e#753#754#0" expanded="true" />
+                <element signature="e#388#389#0" expanded="true" />
+                <element signature="e#462#463#0" expanded="true" />
+                <element signature="e#535#536#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/parser/ExpressionRule.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/parser/EqualNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="360">
+              <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -220,8 +218,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -236,10 +234,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/Lexer/Tuple.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Lexer/Range.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Lexer/TupleImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Lexer/Context.java" />
         <option value="$PROJECT_DIR$/src/main/java/Lexer/charSupplier.java" />
         <option value="$PROJECT_DIR$/src/main/java/Lexer/Token.java" />
         <option value="$PROJECT_DIR$/src/main/java/Lexer/TokenImpl.java" />
@@ -265,26 +259,32 @@
         <option value="$PROJECT_DIR$/src/main/java/Parser/AssignationRule.java" />
         <option value="$PROJECT_DIR$/src/main/java/Parser/AssignationNode.java" />
         <option value="$PROJECT_DIR$/src/main/java/parser/Rule.java" />
-        <option value="$PROJECT_DIR$/src/main/java/parser/Node.java" />
         <option value="$PROJECT_DIR$/src/main/java/parser/Statement.java" />
-        <option value="$PROJECT_DIR$/src/main/java/main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/parser/ProgramNode.java" />
         <option value="$PROJECT_DIR$/src/main/java/parser/IdentifierRule.java" />
         <option value="$PROJECT_DIR$/src/main/java/parser/ExpressionNode.java" />
-        <option value="$PROJECT_DIR$/src/main/java/parser/EqualNode.java" />
-        <option value="$PROJECT_DIR$/src/main/java/parser/SingleRule.java" />
+        <option value="$PROJECT_DIR$/src/main/java/parser/Operator.java" />
+        <option value="$PROJECT_DIR$/src/test/java/LexerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/parser/NodeInformation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/parser/Node.java" />
         <option value="$PROJECT_DIR$/src/main/java/parser/IdentifierNode.java" />
+        <option value="$PROJECT_DIR$/src/main/java/parser/ProgramNode.java" />
+        <option value="$PROJECT_DIR$/src/main/java/parser/StringNode.java" />
+        <option value="$PROJECT_DIR$/src/main/java/parser/ExpressionComposeNode.java" />
+        <option value="$PROJECT_DIR$/src/main/java/parser/EqualNode.java" />
+        <option value="$PROJECT_DIR$/src/main/java/parser/AssignationNode.java" />
+        <option value="$PROJECT_DIR$/src/main/java/parser/AssignationRule.java" />
+        <option value="$PROJECT_DIR$/src/main/java/parser/ExpressionRule.java" />
         <option value="$PROJECT_DIR$/src/main/java/parser/NumberNode.java" />
         <option value="$PROJECT_DIR$/src/main/java/parser/BooleanNode.java" />
-        <option value="$PROJECT_DIR$/src/main/java/parser/StringNode.java" />
-        <option value="$PROJECT_DIR$/src/main/java/parser/Operator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/parser/ExpressionComposeNode.java" />
-        <option value="$PROJECT_DIR$/src/main/java/parser/ExpressionRule.java" />
-        <option value="$PROJECT_DIR$/src/test/java/LexerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/parser/PrintNode.java" />
+        <option value="$PROJECT_DIR$/src/main/java/parser/PrintRule.java" />
+        <option value="$PROJECT_DIR$/src/main/java/parser/RightParenthesisNode.java" />
+        <option value="$PROJECT_DIR$/src/main/java/parser/LeftParenthesisNode.java" />
+        <option value="$PROJECT_DIR$/src/main/java/parser/ParenthesisNode.java" />
         <option value="$PROJECT_DIR$/src/main/java/parser/ParserImpl.java" />
         <option value="$PROJECT_DIR$/src/test/java/ParserTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/parser/AssignationRule.java" />
-        <option value="$PROJECT_DIR$/src/main/java/parser/AssignationNode.java" />
+        <option value="$PROJECT_DIR$/src/main/java/parser/SingleRule.java" />
       </list>
     </option>
   </component>
@@ -394,7 +394,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.ParserTest.testAssignationParse">
+  <component name="RunManager" selected="Gradle.ParserTest.testPrintWithSumParse">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -402,14 +402,6 @@
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main" />
-      <module name="compiler.main" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -455,12 +447,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="LexerTest.testPrintLex" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ParserTest.testAssignationParse" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;LexerTest.testPrintLex&quot;" />
+        <option name="scriptParameters" value="--tests &quot;ParserTest.testAssignationParse&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -475,12 +467,32 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="ParserTest.testAssignationParse" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ParserTest.testAssignationWithSumParse" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;ParserTest.testAssignationParse&quot;" />
+        <option name="scriptParameters" value="--tests &quot;ParserTest.testAssignationWithSumParse&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="ParserTest.testPrintWithSumParse" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;ParserTest.testPrintWithSumParse&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -522,11 +534,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.ParserTest.testPrintWithSumParse" />
+        <item itemvalue="Gradle.ParserTest.testAssignationWithSumParse" />
         <item itemvalue="Gradle.ParserTest.testAssignationParse" />
         <item itemvalue="Gradle.LexerTest.testDeclarationAssignationLex" />
         <item itemvalue="Gradle.LexerTest" />
-        <item itemvalue="Application.main" />
-        <item itemvalue="Gradle.LexerTest.testPrintLex" />
       </list>
     </recent_temporary>
   </component>
@@ -544,44 +556,52 @@
       <workItem from="1559698159201" duration="3276000" />
       <workItem from="1559787597879" duration="5857000" />
       <workItem from="1559841942440" duration="14723000" />
-      <workItem from="1560086699779" duration="14047000" />
+      <workItem from="1560086699779" duration="19536000" />
     </task>
+    <task id="LOCAL-00001" summary="add parser">
+      <created>1560139690906</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1560139690906</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ParserTest_testAssignationParse - 2019.06.10 at 00h 59m 34s.xml">
-      <configuration name="ParserTest.testAssignationParse" configurationId="GradleRunConfiguration" />
+    <history-entry file="ParserTest_testAssignationWithSumParse - 2019.06.10 at 10h 30m 18s.xml">
+      <configuration name="ParserTest.testAssignationWithSumParse" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="ParserTest_testAssignationParse - 2019.06.10 at 00h 59m 57s.xml">
-      <configuration name="ParserTest.testAssignationParse" configurationId="GradleRunConfiguration" />
+    <history-entry file="ParserTest_testAssignationWithSumParse - 2019.06.10 at 10h 34m 33s.xml">
+      <configuration name="ParserTest.testAssignationWithSumParse" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="ParserTest_testAssignationParse - 2019.06.10 at 01h 02m 43s.xml">
-      <configuration name="ParserTest.testAssignationParse" configurationId="GradleRunConfiguration" />
+    <history-entry file="ParserTest_testAssignationWithSumParse - 2019.06.10 at 10h 35m 01s.xml">
+      <configuration name="ParserTest.testAssignationWithSumParse" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="ParserTest_testAssignationParse - 2019.06.10 at 01h 03m 22s.xml">
-      <configuration name="ParserTest.testAssignationParse" configurationId="GradleRunConfiguration" />
+    <history-entry file="ParserTest_testPrintWithSumParse - 2019.06.10 at 11h 04m 57s.xml">
+      <configuration name="ParserTest.testPrintWithSumParse" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="ParserTest_testAssignationParse - 2019.06.10 at 01h 04m 09s.xml">
-      <configuration name="ParserTest.testAssignationParse" configurationId="GradleRunConfiguration" />
+    <history-entry file="ParserTest_testPrintWithSumParse - 2019.06.10 at 11h 05m 29s.xml">
+      <configuration name="ParserTest.testPrintWithSumParse" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="ParserTest_testAssignationParse - 2019.06.10 at 01h 05m 08s.xml">
-      <configuration name="ParserTest.testAssignationParse" configurationId="GradleRunConfiguration" />
+    <history-entry file="ParserTest_testPrintWithSumParse - 2019.06.10 at 11h 07m 44s.xml">
+      <configuration name="ParserTest.testPrintWithSumParse" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="ParserTest_testAssignationParse - 2019.06.10 at 01h 05m 14s.xml">
-      <configuration name="ParserTest.testAssignationParse" configurationId="GradleRunConfiguration" />
+    <history-entry file="ParserTest_testPrintWithSumParse - 2019.06.10 at 11h 07m 45s.xml">
+      <configuration name="ParserTest.testPrintWithSumParse" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="ParserTest_testAssignationParse - 2019.06.10 at 01h 05m 42s.xml">
-      <configuration name="ParserTest.testAssignationParse" configurationId="GradleRunConfiguration" />
+    <history-entry file="ParserTest_testPrintWithSumParse - 2019.06.10 at 11h 10m 13s.xml">
+      <configuration name="ParserTest.testPrintWithSumParse" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="ParserTest_testAssignationParse - 2019.06.10 at 01h 05m 43s.xml">
-      <configuration name="ParserTest.testAssignationParse" configurationId="GradleRunConfiguration" />
+    <history-entry file="ParserTest_testPrintWithSumParse - 2019.06.10 at 11h 10m 15s.xml">
+      <configuration name="ParserTest.testPrintWithSumParse" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="ParserTest_testAssignationParse - 2019.06.10 at 01h 06m 25s.xml">
-      <configuration name="ParserTest.testAssignationParse" configurationId="GradleRunConfiguration" />
+    <history-entry file="ParserTest_testPrintWithSumParse - 2019.06.10 at 11h 10m 53s.xml">
+      <configuration name="ParserTest.testPrintWithSumParse" configurationId="GradleRunConfiguration" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41764000" />
+    <option name="totallyTimeSpent" value="47253000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -621,6 +641,10 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add parser" />
+    <option name="LAST_COMMIT_MESSAGE" value="add parser" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -637,40 +661,22 @@
           <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/main.java</url>
-          <line>3</line>
+          <url>file://$PROJECT_DIR$/src/test/java/ParserTest.java</url>
+          <line>29</line>
           <properties />
-          <option name="timeStamp" value="22" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/parser/ParserImpl.java</url>
-          <line>31</line>
-          <properties />
-          <option name="timeStamp" value="29" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/parser/AssignationRule.java</url>
-          <line>43</line>
-          <properties />
-          <option name="timeStamp" value="30" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/parser/AssignationRule.java</url>
-          <line>28</line>
-          <properties />
-          <option name="timeStamp" value="31" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/parser/AssignationRule.java</url>
-          <line>46</line>
-          <properties />
-          <option name="timeStamp" value="32" />
+          <option name="timeStamp" value="33" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/ParserTest.java</url>
-          <line>28</line>
+          <line>56</line>
           <properties />
-          <option name="timeStamp" value="33" />
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/ParserTest.java</url>
+          <line>82</line>
+          <properties />
+          <option name="timeStamp" value="37" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -695,23 +701,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Interpreter.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/InterpreterImpl.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Lexer/Tuple.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/Lexer/Range.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Lexer/charSupplier.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -859,31 +848,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/parser/ProgramNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#168#169#0" expanded="true" />
-            <element signature="e#221#222#0" expanded="true" />
-            <element signature="e#273#274#0" expanded="true" />
-            <element signature="e#313#314#0" expanded="true" />
-            <element signature="e#366#367#0" expanded="true" />
-            <element signature="e#415#416#0" expanded="true" />
-            <element signature="e#453#454#0" expanded="true" />
-            <element signature="e#476#477#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Lexer/StringState.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -921,46 +885,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/parser/EqualNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="20" />
-          <folding>
-            <element signature="e#132#133#0" expanded="true" />
-            <element signature="e#159#160#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/parser/Node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/parser/NumberNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="20" />
-          <folding>
-            <element signature="e#133#134#0" expanded="true" />
-            <element signature="e#160#161#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/parser/BooleanNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="20" />
-          <folding>
-            <element signature="e#133#134#0" expanded="true" />
-            <element signature="e#160#161#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/util/List.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -968,31 +892,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/parser/StringNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="47" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
-          <folding>
-            <element signature="e#143#144#0" expanded="true" />
-            <element signature="e#170#171#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/parser/Operator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/parser/ExpressionComposeNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="15" column="96" selection-start-line="15" selection-start-column="96" selection-end-line="15" selection-end-column="96" />
-          <folding>
-            <element signature="e#590#591#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1026,37 +929,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/parser/IdentifierNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="e#143#144#0" expanded="true" />
-            <element signature="e#170#171#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/parser/SingleRule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/parser/ExpressionRule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -1084,14 +956,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/parser/AssignationNode.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/parser/NodeInformation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/parser/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#376#377#0" expanded="true" />
-            <element signature="e#451#452#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1103,10 +987,156 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/parser/StringNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="50" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/parser/BooleanNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/parser/ExpressionComposeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/parser/ExpressionRule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/parser/AssignationNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#520#521#0" expanded="true" />
+            <element signature="e#547#548#0" expanded="true" />
+            <element signature="e#592#593#0" expanded="true" />
+            <element signature="e#619#620#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/parser/AssignationRule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="18" column="67" lean-forward="true" selection-start-line="15" selection-start-column="6" selection-end-line="18" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#579#580#0" expanded="true" />
+            <element signature="e#615#616#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/parser/EqualNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/parser/RightParenthesisNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#232#233#0" expanded="true" />
+            <element signature="e#259#260#0" expanded="true" />
+            <element signature="e#305#306#0" expanded="true" />
+            <element signature="e#332#333#0" expanded="true" />
+            <element signature="e#377#378#0" expanded="true" />
+            <element signature="e#404#405#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/parser/IdentifierNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/parser/ParenthesisNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#388#389#0" expanded="true" />
+            <element signature="e#462#463#0" expanded="true" />
+            <element signature="e#535#536#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/parser/NumberNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="46" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/parser/ProgramNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/parser/PrintNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#228#229#0" expanded="true" />
+            <element signature="e#255#256#0" expanded="true" />
+            <element signature="e#300#301#0" expanded="true" />
+            <element signature="e#327#328#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/parser/ParserImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        <state relative-caret-position="189">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#368#369#0" expanded="true" />
@@ -1115,23 +1145,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/parser/AssignationRule.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/parser/SingleRule.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="510">
+          <caret line="40" column="76" selection-start-line="40" selection-start-column="76" selection-end-line="40" selection-end-column="76" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#579#580#0" expanded="true" />
-            <element signature="e#615#616#0" expanded="true" />
-            <element signature="e#753#754#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/parser/PrintRule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="499">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#172#173#0" expanded="true" />
+            <element signature="e#199#200#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ParserTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="298">
+          <caret line="82" selection-start-line="82" selection-end-line="82" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
