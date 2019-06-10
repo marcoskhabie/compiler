@@ -1,8 +1,7 @@
 package parser;
 
-import Lexer.Token;
-import Lexer.TokenImpl;
-import Lexer.TokenType;
+import lexer.Token;
+import lexer.TokenType;
 
 import java.util.List;
 import java.util.Optional;

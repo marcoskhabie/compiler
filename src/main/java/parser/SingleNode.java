@@ -5,19 +5,20 @@ import lexer.Token;
 import java.util.ArrayList;
 import java.util.List;
 
-public class EqualNode implements Node {
+public class SingleNode implements Node {
 
     Token token;
-    String value;
+    private String value;
 
-    public EqualNode(Token token, String value) {
+    public SingleNode(Token token, String value) {
         this.token = token;
         this.value = value;
     }
 
+
     @Override
     public List<Node> getChildren() {
-        return new ArrayList<>();
+            return new ArrayList<>();
     }
 
     @Override

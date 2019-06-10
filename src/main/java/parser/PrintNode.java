@@ -1,6 +1,6 @@
 package parser;
 
-import Lexer.Token;
+import lexer.Token;
 
 import java.util.ArrayList;
 import java.util.Arrays;

@@ -1,4 +1,4 @@
-package Lexer;
+package lexer;
 
 public class StringState extends LexerState {
     public StringState(Context context, String accum) {

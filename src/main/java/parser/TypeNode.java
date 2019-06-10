@@ -1,29 +1,26 @@
 package parser;
 
-import Lexer.Token;
+import lexer.Token;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class ParenthesisNode implements Node {
+public class TypeNode implements Node {
 
     Token token;
-    String value;
 
-    public ParenthesisNode(Token token, String value) {
+    public TypeNode(Token token) {
         this.token = token;
-        this.value = value;
     }
-
 
     @Override
     public List<Node> getChildren() {
-            return new ArrayList<>();
+        return new ArrayList<>();
     }
 
     @Override
     public String getValue() {
-        return value;
+        return token.getValue();
     }
 
     @Override

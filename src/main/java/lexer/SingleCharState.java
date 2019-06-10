@@ -1,4 +1,4 @@
-package Lexer;
+package lexer;
 
 public class SingleCharState extends LexerState {
     public SingleCharState(Context context, String accum) {

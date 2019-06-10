@@ -1,11 +1,13 @@
 package parser;
 
-import Lexer.Token;
+import lexer.Token;
 
 import java.util.List;
 
 public interface Parser {
 
-    Node GenerateTree(List<Token> tokens);
+    Node parse(String s);
+
+    Node generateTree(List<Token> tokens);
 
 }

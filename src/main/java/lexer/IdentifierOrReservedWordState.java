@@ -1,4 +1,4 @@
-package Lexer;
+package lexer;
 
 public class IdentifierOrReservedWordState extends LexerState {
 

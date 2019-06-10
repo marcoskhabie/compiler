@@ -1,6 +1,5 @@
-package Lexer;
+package lexer;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class LexerImpl implements Lexer {

@@ -1,4 +1,4 @@
-package Lexer;
+package lexer;
 
 public class UnknownState extends LexerState {
     public UnknownState(Context context, String accum) {

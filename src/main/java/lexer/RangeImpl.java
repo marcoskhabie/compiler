@@ -1,4 +1,4 @@
-package Lexer;
+package lexer;
 
 public class RangeImpl implements Range {
     private int first;

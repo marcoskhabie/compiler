@@ -1,4 +1,4 @@
-import Lexer.*;
+import lexer.*;
 import org.junit.Test;
 
 import java.util.List;

@@ -1,7 +1,7 @@
 package parser;
 
-import Lexer.Token;
-import Lexer.TokenType;
+import lexer.Token;
+import lexer.TokenType;
 
 import java.util.List;
 import java.util.Optional;
@@ -35,7 +35,9 @@ public class SingleRule implements Rule{
                     return Optional.of(new EqualNode(token, token.getValue()));
                 case LeftParenthesis:
                 case RightParenthesis:
-                    return Optional.of(new ParenthesisNode(token, token.getValue()));
+                case Let:
+                case Colon:
+                    return Optional.of(new SingleNode(token, token.getValue()));
 
                 case Print:
                     return Optional.of(new PrintNode(token,null,null,null));

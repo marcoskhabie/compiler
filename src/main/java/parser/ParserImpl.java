@@ -1,9 +1,9 @@
 package parser;
 
-import Lexer.Token;
-import Lexer.TokenType;
+import lexer.Lexer;
+import lexer.Token;
+import lexer.TokenType;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -11,19 +11,28 @@ import java.util.Optional;
 
 public class ParserImpl implements Parser {
 
-    List<Rule> rules;
+    private List<Rule> rules;
+    private Lexer lexer;
 
 
-    public ParserImpl(List<Rule> rules) {
-        this.rules = rules;
+    public ParserImpl(Lexer lexer) {
+        rules = Arrays.asList(new AssignationRule(),new PrintRule(), new AssignationDeclarationRule(), new DeclarationRule());
+
+        this.lexer = lexer;
     }
 
+
     public ParserImpl() {
-        rules = Arrays.asList(new AssignationRule(),new PrintRule());
+        rules = Arrays.asList(new AssignationRule(),new PrintRule(), new AssignationDeclarationRule(), new DeclarationRule());
     }
 
     @Override
-    public Node GenerateTree(List<Token> tokens) {
+    public Node parse(String s) {
+       return generateTree(lexer.generateTokens(s));
+    }
+
+    @Override
+    public Node generateTree(List<Token> tokens) {
         ProgramNode result = new ProgramNode();
         List<List<Token>> filteredTokens = splitTokens(tokens);
 
@@ -50,7 +59,7 @@ public class ParserImpl implements Parser {
             Token token = tokens.get(i);
             TokenType actualType = token.getTokenType();
             if (actualType.equals(TokenType.Space)){
-                break;
+                continue;
             }else if (actualType.equals(TokenType.Semicolon)){
                 result.add(sublist);
                 sublist = new ArrayList<>();

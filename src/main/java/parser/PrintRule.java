@@ -1,7 +1,7 @@
 package parser;
 
-import Lexer.Token;
-import Lexer.TokenType;
+import lexer.Token;
+import lexer.TokenType;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -34,7 +34,7 @@ public class PrintRule implements Rule {
     public Optional<Node> match(List<Token> tokens) {
 
         ArrayList<Node> nodes = new ArrayList<>();
-
+        if (tokens.size()<2) return Optional.empty();
         for (int i = 0; i < 2; i++) {
             Optional<Node> match = matches.get(i).match(Arrays.asList(tokens.get(i)));
             if (match.isPresent()) {
