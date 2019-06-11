@@ -7,7 +7,7 @@ import java.util.List;
 
 public class IdentifierNode extends ExpressionNode{
 
-    String value;
+    private String value;
     Token token;
 
     public IdentifierNode(String value, Token token) {
