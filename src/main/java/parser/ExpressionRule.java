@@ -35,22 +35,50 @@ public class ExpressionRule implements Rule {
             }
             return Optional.empty();
         } else {
-            for (int i = 0; i < tokens.size(); i++) {
-                Token token = tokens.get(i);
-                TokenType tokenType = token.getTokenType();
-                if (tokenType.equals(TokenType.ArithmeticOperation)) {
-                    Optional<Node> left = match(tokens.subList(0, i));
-                    Optional<Node> right = match(tokens.subList(i + 1, tokens.size()));
-                    if (left.isPresent() && right.isPresent()) {
-                        return Optional.of(new ExpressionComposeNode((ExpressionNode) left.get(), (ExpressionNode) right.get(), getOperatorFromToken(token),token));
-                    } else {
-                        return Optional.empty();
+            Optional<Integer> index = lookForPlusOrMinusIndex(tokens);
+            if (index.isPresent()) {
+                Integer indexOfOperation = index.get();
+                Optional<Node> left = match(tokens.subList(0, indexOfOperation));
+                Optional<Node> right = match(tokens.subList(indexOfOperation + 1, tokens.size()));
+                if (left.isPresent() && right.isPresent()) {
+                    Token token = tokens.get(indexOfOperation);
+                    return Optional.of(new ExpressionComposeNode((ExpressionNode) left.get(), (ExpressionNode) right.get(), getOperatorFromToken(token), token));
+                } else {
+                    return Optional.empty();
+                }
+            } else {
+
+                for (int i = 0; i < tokens.size(); i++) {
+                    Token token = tokens.get(i);
+                    TokenType tokenType = token.getTokenType();
+                    if (tokenType.equals(TokenType.ArithmeticOperation)) {
+                        Optional<Node> left = match(tokens.subList(0, i));
+                        Optional<Node> right = match(tokens.subList(i + 1, tokens.size()));
+                        if (left.isPresent() && right.isPresent()) {
+                            return Optional.of(new ExpressionComposeNode((ExpressionNode) left.get(), (ExpressionNode) right.get(), getOperatorFromToken(token), token));
+                        } else {
+                            return Optional.empty();
+                        }
                     }
                 }
             }
         }
 
 
+        return Optional.empty();
+    }
+
+    private Optional<Integer> lookForPlusOrMinusIndex(List<Token> tokens) {
+        for (int i = 0; i < tokens.size(); i++) {
+            Token token = tokens.get(i);
+            TokenType tokenType = token.getTokenType();
+            if (tokenType.equals(TokenType.ArithmeticOperation)) {
+                Operator operatorFromToken = getOperatorFromToken(token);
+                if (operatorFromToken.equals(Operator.PLUS) || operatorFromToken.equals(Operator.MINUS)) {
+                    return Optional.of(i);
+                }
+            }
+        }
         return Optional.empty();
     }
 

@@ -16,7 +16,7 @@ public class InterpreterTest {
     @Test
     public void testDeclareAssignPrint(){
 
-        String file = "let pepito:string=\"pepito\"; let hola:number; \n hola = 5+5; \nprint(hola); \nprint(pepito);";
+        String file = "let pepito:string=\"pepito\"; let hola:number; \n hola = 5*2+5*2-5; \nprint(hola + pepito + \"mundo\"); \nprint(pepito);";
         interpreter.execute(file);
 
     }
