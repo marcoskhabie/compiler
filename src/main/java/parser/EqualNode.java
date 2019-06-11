@@ -29,4 +29,9 @@ public class EqualNode implements Node {
     public Token getToken() {
         return token;
     }
+
+    @Override
+    public void accept(NodeVisitor nodeVisitor) {
+
+    }
 }

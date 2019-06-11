@@ -103,5 +103,29 @@ public class LexerTest {
         assertEquals(semiColon, tokens.get(9));
     }
 
+    @Test
+    public void testDeclarationLex(){
+
+        String file = "let hola:string;\n";
+
+        TokenImpl let = new TokenImpl(new RangeImpl(0, 3), new RangeImpl(0,0), TokenType.Let,"let");
+        TokenImpl space = new TokenImpl(new RangeImpl(3, 4), new RangeImpl(0,0), TokenType.Space," ");
+        TokenImpl identifier = new TokenImpl(new RangeImpl(4, 8), new RangeImpl(0,0), TokenType.Identifier,"hola");
+        TokenImpl colon = new TokenImpl(new RangeImpl(8, 9), new RangeImpl(0,0), TokenType.Colon,":");
+        TokenImpl stringType = new TokenImpl(new RangeImpl(9, 15), new RangeImpl(0,0), TokenType.StringType,"string");
+        TokenImpl semiColon = new TokenImpl(new RangeImpl(15,16), new RangeImpl(0,0), TokenType.Semicolon,";");
+
+
+        List<Token> tokens = lexer.generateTokens(file);
+
+
+        assertEquals(let, tokens.get(0));
+        assertEquals(space, tokens.get(1));
+        assertEquals(identifier, tokens.get(2));
+        assertEquals(colon, tokens.get(3));
+        assertEquals(stringType, tokens.get(4));
+        assertEquals(semiColon, tokens.get(5));
+    }
+
 
 }

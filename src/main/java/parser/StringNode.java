@@ -27,4 +27,16 @@ public class StringNode extends ExpressionNode {
     public Token getToken() {
         return token;
     }
+
+    @Override
+    public void accept(ExpressionVisitor expressionVisitor) {
+        expressionVisitor.visitStringNode(this);
+
+    }
+
+    @Override
+    public void accept(NodeVisitor nodeVisitor) {
+        nodeVisitor.visitStringNode(this);
+
+    }
 }

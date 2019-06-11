@@ -36,4 +36,8 @@ public class ProgramNode implements Node {
         children.add(statement);
     }
 
+    @Override
+    public void accept(NodeVisitor nodeVisitor) {
+        nodeVisitor.visitProgram(this);
+    }
 }

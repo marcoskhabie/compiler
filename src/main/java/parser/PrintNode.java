@@ -9,9 +9,9 @@ import java.util.List;
 public class PrintNode extends Statement {
 
     Token token;
-    Node leftParenthesis;
-    Node expression;
-    Node rightParenthesis;
+    private Node leftParenthesis;
+    private Node expression;
+    private Node rightParenthesis;
 
 
     public PrintNode(Token token, Node leftParenthesis, Node expression, Node rightParenthesis) {
@@ -34,5 +34,22 @@ public class PrintNode extends Statement {
     @Override
     public Token getToken() {
         return token;
+    }
+
+    @Override
+    public void accept(NodeVisitor nodeVisitor) {
+        nodeVisitor.visitPrintNode(this);
+    }
+
+    public Node getLeftParenthesis() {
+        return leftParenthesis;
+    }
+
+    public Node getExpression() {
+        return expression;
+    }
+
+    public Node getRightParenthesis() {
+        return rightParenthesis;
     }
 }

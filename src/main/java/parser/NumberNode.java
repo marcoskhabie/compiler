@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class NumberNode extends ExpressionNode {
-    String value;
+    private String value;
     Token token;
 
     public NumberNode(String value, Token token) {
@@ -27,5 +27,16 @@ public class NumberNode extends ExpressionNode {
     @Override
     public Token getToken() {
         return token;
+    }
+
+    @Override
+    public void accept(ExpressionVisitor expressionVisitor) {
+        expressionVisitor.visitNumberNode(this);
+
+    }
+
+    @Override
+    public void accept(NodeVisitor nodeVisitor) {
+        nodeVisitor.visitNumberNode(this);
     }
 }

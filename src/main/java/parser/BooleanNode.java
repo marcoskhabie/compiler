@@ -28,4 +28,14 @@ public class BooleanNode extends ExpressionNode{
     public Token getToken() {
         return token;
     }
+
+    @Override
+    public void accept(ExpressionVisitor expressionVisitor) {
+
+    }
+
+    @Override
+    public void accept(NodeVisitor nodeVisitor) {
+
+    }
 }

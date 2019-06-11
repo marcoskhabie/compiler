@@ -1,8 +1,6 @@
 package parser;
 
-import lexer.Lexer;
-import lexer.Token;
-import lexer.TokenType;
+import lexer.*;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -24,6 +22,7 @@ public class ParserImpl implements Parser {
 
     public ParserImpl() {
         rules = Arrays.asList(new AssignationRule(),new PrintRule(), new AssignationDeclarationRule(), new DeclarationRule());
+        lexer = new LexerImpl();
     }
 
     @Override
@@ -37,15 +36,19 @@ public class ParserImpl implements Parser {
         List<List<Token>> filteredTokens = splitTokens(tokens);
 
         for (List<Token> tokenSublist : filteredTokens) {
-
+            boolean matched = false;
             for (Rule r : rules) {
                 Optional<Node> match = r.match(tokenSublist);
                 if (match.isPresent()){
                     result.addStatement((Statement) match.get());
+                    matched = true;
                     break;
                 }
             }
-            //if no matcheo
+            if (!matched) {
+                List<RangeImpl> sublistRange = getSublistRange(tokenSublist);
+                throw new ParserException("[PARSER ERROR] at rows: " + sublistRange.get(0).toString() + " columns: " + sublistRange.get(1).toString());
+            }
         }
         return result;
     }
@@ -58,7 +61,7 @@ public class ParserImpl implements Parser {
         for (int i = 0; i < tokens.size() ; i++) {
             Token token = tokens.get(i);
             TokenType actualType = token.getTokenType();
-            if (actualType.equals(TokenType.Space)){
+            if (actualType.equals(TokenType.Space) || actualType.equals(TokenType.Enter)){
                 continue;
             }else if (actualType.equals(TokenType.Semicolon)){
                 result.add(sublist);
@@ -68,5 +71,16 @@ public class ParserImpl implements Parser {
             }
         }
         return result;
+    }
+
+    private List<RangeImpl> getSublistRange(List<Token> tokens){
+        Token token = tokens.get(0);
+        int firstRow = token.getRowRange().getFirst();
+        int firstColumn = token.getColumnRange().getFirst();
+        Token token1 = tokens.get(tokens.size() - 1);
+        int secondRow = token1.getRowRange().getSecond();
+        int seconsColumn = token1.getColumnRange().getSecond();
+
+        return Arrays.asList(new RangeImpl(firstRow,secondRow), new RangeImpl(firstColumn,seconsColumn));
     }
 }

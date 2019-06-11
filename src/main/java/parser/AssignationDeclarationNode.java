@@ -38,4 +38,24 @@ public class AssignationDeclarationNode extends Statement {
     }
 
 
+    @Override
+    public void accept(NodeVisitor nodeVisitor) {
+        nodeVisitor.visitAssignationDeclarationNode(this);
+    }
+
+    public Node getLet() {
+        return let;
+    }
+
+    public Node getIdentifier() {
+        return identifier;
+    }
+
+    public Node getType() {
+        return type;
+    }
+
+    public Node getExpression() {
+        return expression;
+    }
 }

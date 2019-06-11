@@ -29,4 +29,16 @@ public class IdentifierNode extends ExpressionNode{
     public Token getToken() {
         return token;
     }
+
+    @Override
+    public void accept(ExpressionVisitor expressionVisitor) {
+        expressionVisitor.visitIdentifierNode(this);
+
+    }
+
+    @Override
+    public void accept(NodeVisitor nodeVisitor) {
+        nodeVisitor.visitIdentifierNode(this);
+
+    }
 }

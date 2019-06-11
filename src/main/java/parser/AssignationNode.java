@@ -8,8 +8,8 @@ import java.util.List;
 
 public class AssignationNode extends Statement{
 
-    Node identifier;
-    Node expresion;
+    private Node identifier;
+    private Node expresion;
     Token token;
 
 
@@ -34,4 +34,16 @@ public class AssignationNode extends Statement{
         return token;
     }
 
+    @Override
+    public void accept(NodeVisitor nodeVisitor) {
+        nodeVisitor.visitAssignationNode(this);
+    }
+
+    public Node getIdentifier() {
+        return identifier;
+    }
+
+    public Node getExpression() {
+        return expresion;
+    }
 }

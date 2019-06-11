@@ -24,4 +24,9 @@ public class RangeImpl implements Range {
         RangeImpl other1 = (RangeImpl) other;
         return other1.first == first && other1.second == second;
     }
+
+    @Override
+    public String toString(){
+        return "(" + first + "," + second + ")";
+    }
 }

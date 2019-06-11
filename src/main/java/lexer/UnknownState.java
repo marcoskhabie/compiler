@@ -7,11 +7,11 @@ public class UnknownState extends LexerState {
 
     @Override
     Token getToken() {
-        return null;
+        throw new LexerException("[LEXER ERROR] Invalid token");
     }
 
     @Override
     public State next(Character o) {
-        return null;
+        throw new LexerException("[LEXER ERROR] Invalid token");
     }
 }
